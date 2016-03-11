@@ -1,0 +1,76 @@
+/* THESE CAN BE IGNORED MADE A QUICK BUTTON FOR TESTING*/
+
+body {
+    font-family: 'Open Sans', sans-serif; width:100%;overflow-x:hidden;
+}
+
+.modal-click {
+    cursor: pointer;
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: #009688;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 5px #ccc;
+    margin-top: 25%;
+    padding: 18px;
+    color: #fff;
+    font-size: 21px;
+}
+
+.modal-click:hover {
+    background-color:#004d40;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: .5em 1.6em;
+    border: 0;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.4rem;
+    line-height: 1;
+}
+.btn.btn--link {
+    color: #d32f2f;
+    text-decoration: none;
+    cursor: pointer;
+    outline:none;
+}
+
+.btn.btn--link:hover{
+    color: #b71c1c;
+}
+
+.btn--action {
+    background-color: #43a047;
+    color: #fff;
+}
+
+.modal-actions >.btn + .btn {
+    margin-left: 5px;
+}
+
+.btn.btn--link {
+    background-color: transparent;
+}
+
+.btn:active {
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px);
+}
+.btn--action:active {
+    box-shadow: inset 0 2px 0 #2e7d32;
+}
+.btn--action:focus {
+    outline: none;
+    background-color: #2e7d32;
+}
