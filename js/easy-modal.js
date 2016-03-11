@@ -39,7 +39,7 @@
         } else {
             // Modal with close icon in upper corner
             $easyModal = $('<div class="modal-bg close">\
-                           <div class="modal modal--' + o.size + '">' + o.content + '<span id="modal-close" class="modal-close"><i class="fa fa-times fa-lg"></i></span></div>\
+                           <div class="modal modal--' + o.size + '">' + o.content + '<span id="modal-close" class="modal-close close"><i class="fa fa-times fa-lg"></i></span></div>\
                            </div>').hide(); // MAIN MODAL STRUCTURE NO FOOTER
         }
 
@@ -67,11 +67,11 @@
                 $wrap.fadeOut(o.fadeOutModal).remove();
             });
         }
-        
+
         $easyModal.find('.close').on('click', function (e) {
             hide();
-        });       
-          
+        });
+
         $('body').prepend($wrap.append($easyModal));
         show();
     };
