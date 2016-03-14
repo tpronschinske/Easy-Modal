@@ -13,7 +13,7 @@
     </ul>
 
 <h2>How To Use</h2>
-<p>
+<pre>
     <script>
       $(document).ready(function(){
           $('.modal-click').click(function(){
@@ -22,7 +22,7 @@
       });
     </script>
 
-</p>
+</pre>
 
 <h3>The MIT License (MIT)</h3>
 <hr />
