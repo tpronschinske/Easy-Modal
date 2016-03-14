@@ -14,13 +14,13 @@
 
 <h2>How To Use</h2>
 <pre>
-    <script>
+  
       $(document).ready(function(){
           $('.modal-click').click(function(){
              $.easyModal()
           }); 
       });
-    </script>
+
 
 </pre>
 
