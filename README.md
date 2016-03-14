@@ -1,5 +1,4 @@
 <h1>Easy Modal</h1>
-<hr />
 <p>An easy to use jquery modal plugin. All you have to do is change the settings to your desire and the modal plugin will take care of the rest</p>
 
 <p>The modal is created dynamically through jquery. No longer do you have to recreate templates. All you have to do is provide the content and settings and your off to the races. See the index file and you can see the three ways this modal can be set up.</p>
@@ -13,6 +12,17 @@
         <li>(Optional) Font Awesome Library For Close Icon</li>
     </ul>
 
+<h2>How To Use</h2>
+<p>
+    <script>
+      $(document).ready(function(){
+          $('.modal-click').click(function(){
+             $.easyModal()
+          }); 
+      });
+    </script>
+
+</p>
 
 <h3>The MIT License (MIT)</h3>
 <hr />
