@@ -5,12 +5,12 @@
 
 <h2>Requirements</h2>
 <hr />
-    <ul>
-        <li>jQuery 1.9.1 or Higher</li>
-        <li>easy-modal.js</li>
-        <li>style-modal.css</li>
-        <li>(Optional) Font Awesome Library For Close Icon</li>
-    </ul>
+<pre>
+        jQuery 1.9.1 or Higher
+        easy-modal.js
+        style-modal.css
+       (Optional) Font Awesome Library For Close Icon
+ </pre>
 
 <h2>How To Use</h2>
 <pre>
