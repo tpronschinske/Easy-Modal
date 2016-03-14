@@ -35,6 +35,14 @@
         linkText: "Cancel"
 </pre>
 
+<p>content: can be changed to any form of string or you can pass in a file via ajax</p>
+<p>size: small, medium, large</p>
+<p>fadeInModal: the speed you wish to fade in</p>
+<p>fadeOutModal: the speed you wish to fade out</p>
+<p>footer: Boolean (true or false) if true the footer will render buttons at the foot of the modal. If false no buttons and close button will be in the upper right corner</p>
+<p>buttonText: String to set the button text</p>
+<p>linkText: String to set the link text</p>
+
 <h3>The MIT License (MIT)</h3>
 <hr />
 
