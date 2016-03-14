@@ -24,6 +24,17 @@
 
 </pre>
 
+<h2>Modal Settings</h2>
+<pre>
+        content: '<span>New Easy Modal/Dialog Box</span>',
+        size: 'medium',
+        fadeInModal: 800,
+        fadeOutModal: 800,
+        footer: false,
+        buttonText: "Ok",
+        linkText: "Cancel"
+</pre>
+
 <h3>The MIT License (MIT)</h3>
 <hr />
 
